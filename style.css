@@ -14,7 +14,7 @@
 .menu-header{
     height: 38px;
     background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#d10487), to(#ae036f));
-    background: -webkit-linear-gradient(top, #d10487, #ae036f);
+    background: -webkit-linear-gradient(top, #d10487, #ae036f); 
     background: -moz-linear-gradient(top, #d10487, #ae036f);
     background: -ms-linear-gradient(top, #d10487, #ae036f);
     background: -o-linear-gradient(top, #d10487, #ae036f);
