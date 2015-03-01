@@ -94,7 +94,7 @@ and open the template in the editor.
 .footer-right{
     padding-top: 70px;
     margin-right: 7px;
-    
+
 }
 .Powered {
     color: #9e0164;
@@ -108,10 +108,12 @@ and open the template in the editor.
     background: #bd0478;
     height: 40px;
 }
+.content-menu-footer li:first-child {
+    padding-left: none;
+}
 .content-menu-footer li {
-float: left;
-padding: 10px 9px 0 7px;
-border-right: none !important;
-border-left: none !important;
-height: 40px;
+    float: left;
+    padding: 10px 10px 0 10px;
+    height: 40px;
+    
 }
