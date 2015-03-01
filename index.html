@@ -1,87 +1,341 @@
 <!DOCTYPE html>
 <html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title>Family today</title>
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-</head> 
-<body>
-<div class="header-main">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-sm-6 col-xs-6"><a href="#">
-                <img src="images/logo.png">
-            </a></div>
-            <div class="col-md-6 col-sm-6 col-xs-6">
-                <div class="advantising">
-                    <img src="images/ad.png">
-					
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Family today</title>
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+        <link href="manh.css" rel="stylesheet">
+        <link href="trung.css" rel="stylesheet">
+        <link href="lib/owl-carousel/owl.carousel.css" rel="stylesheet">
+        <link href="lib/owl-carousel/owl.transitions.css" rel="stylesheet">
+    </head> 
+    <body>
+        <div class="header-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-6"><a href="#">
+                            <img src="images/logo.png">
+                        </a></div>
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <div class="advantising">
+                            <img src="images/ad.png">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+
+        <!----End header-->
+        <div class="menu-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="content-menu-header">
+                            <li id="li-home-menu"><a href="#"><i class="icon-home"></i></a></li>
+                            <li><a href="#">Đời sống</a></li>
+                            <li><a href="#">Vợ & Chồng</a></li>
+                            <li><a href="#">Mẹ bầu bí</a></li>
+                            <li><a href="#">Nuôi dạy con</a></li>
+                            <li><a href="#">Nội trợ</a></li>
+                            <li><a href="#">Thời trang</a></li>
+                            <li><a href="#">Làm đẹp</a></li>
+                            <li><a href="#">Sức khỏe</a></li>
+                            <li><a href="#">Du lịch</a></li>
+                            <li><a href="#">Thư giãn</a></li>
+                            <li><a href="#">Tâm sự</a></li>
+                            <li><a href="#">Vòng tay yêu thương</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
-    <!--tao dang sua cho nay-->
 
-<!----End header-->
-<div class="menu-header">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <ul class="content-menu-header">
-                    <li id="li-home-menu"><a href="#"><i class="icon-home"></i></a></li>
-                    <li><a href="#">Đời sống</a></li>
-                    <li><a href="#">Vợ & Chồng</a></li>
-                    <li><a href="#">Mẹ bầu bí</a></li>
-                    <li><a href="#">Nuôi dạy con</a></li>
-                    <li><a href="#">Nội trợ</a></li>
-                    <li><a href="#">Thời trang</a></li>
-                    <li><a href="#">Làm đẹp</a></li>
-                    <li><a href="#">Sức khỏe</a></li>
-                    <li><a href="#">Du lịch</a></li>
-                    <li><a href="#">Thư giãn</a></li>
-                    <li><a href="#">Tâm sự</a></li>
-                    <li><a href="#">Vòng tay yêu thương</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!----End Menu-->
-<div class="after-menu-header">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="wrap-popular-new-header">
-                    <b>Tin Nóng:</b>
-                    <a href="">Tóc Tiên sexy hết cỡ tập vũ đạo với Lâm Vinh Hải</a>
+        <!----End Menu-->
+        <div class="after-menu-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="wrap-popular-new-header">
+                            <b>Tin Nóng:</b>
+                            <a href="">Tóc Tiên sexy hết cỡ tập vũ đạo với Lâm Vinh Hải</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="wrap-search-header pull-right">
+                            <form role="search" method="get" class="search-form" action="">
+                                <label class="pull-left">
+                                    <span class="screen-reader-text"></span>
+                                    <input type="search" class="search-field" placeholder="Tìm kiếm..." value="" name="s" title=""/>
+                                </label>
+                                <input type="submit" class="search-submit" value=""/>
+                            </form>
+                        </div>
+                        <!--<form role="search" method="get" class="search-form" action="<?php echo home_url( '/' ); ?>">-->
+                        <!--<label>-->
+                        <!--<span class="screen-reader-text"><?php echo _x( 'Search for:', 'label' ) ?></span>-->
+                        <!--<input type="search" class="search-field" placeholder="<?php echo esc_attr_x( 'Search …', 'placeholder' ) ?>" value="<?php echo get_search_query() ?>" name="s" title="<?php echo esc_attr_x( 'Search for:', 'label' ) ?>" />-->
+                        <!--</label>-->
+                        <!--<input type="submit" class="search-submit" value="<?php echo esc_attr_x( 'Search', 'submit button' ) ?>" />-->
+                        <!--</form>-->
+                    </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="wrap-search-header pull-right">
-                    <form role="search" method="get" class="search-form" action="">
-                        <label class="pull-left">
-                            <span class="screen-reader-text"></span>
-                            <input type="search" class="search-field" placeholder="Tìm kiếm..." value="" name="s" title=""/>
-                        </label>
-                        <input type="submit" class="search-submit" value=""/>
-                    </form>
+        </div>
+        <!--End after menu header-->
+
+        <div class="content-index main-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-xs-8 col-sm-8">
+                        <div class="box-slide-popular-news clearfix">
+                            <div class="main-popular-news pull-left">
+                                <div class="item-news">
+                                    <div class="wrap-img-popular-news">
+                                        <a href="#">                                        
+                                            <img src="images/img1.png" />
+                                        </a>
+                                    </div>
+                                    <h3 class="item-news-title">
+                                        5 điểm cà phê Đà Lạt cực lãng mạn cho Valentine
+                                    </h3>
+                                    <p class="content-popular-news">Bạn đã có kế hoạch cùng người yêu lên thăm Đà Lạt mùa Valentine nhưng chưa biết sẽ tham quan những đâu? Mách bạn 5 địa chỉ cà phê cực kỳ lãng mạn cho buổi hẹn hò ở phố núi.</p>
+                                </div>
+                            </div>
+                            <!--End main-->                            
+                            <div class="list-popular-news pull-left">
+                                <ul>
+                                    <li class="clearfix">
+                                        <div class="wrap-img-list-news pull-left">
+                                            <a href="#">
+                                                <img src="images/img2.png" alt="" />
+                                            </a>
+                                        </div>
+                                        <h4><a href="#">Chuẩn bị mâm cơm cúng tất niên như thế nào </a></h4>
+                                    </li>
+                                    <li class="clearfix">
+                                        <div class="wrap-img-list-news pull-left">
+                                            <a href="#">
+                                                <img src="images/img2.png" alt="" />
+                                            </a>
+                                        </div>
+                                        <h4><a href="#">Chuẩn bị mâm cơm cúng tất niên như thế nào </a></h4>
+                                    </li>
+                                    <li class="clearfix">
+                                        <div class="wrap-img-list-news pull-left">
+                                            <a href="#">
+                                                <img src="images/img2.png" alt="" />
+                                            </a>
+                                        </div>
+                                        <h4><a href="#">Chuẩn bị mâm cơm cúng tất niên như thế nào </a></h4>
+                                    </li>
+                                    <li class="clearfix">
+                                        <div class="wrap-img-list-news pull-left">
+                                            <a href="#">
+                                                <img src="images/img2.png" alt="" />
+                                            </a>
+                                        </div>
+                                        <h4><a href="#">Chuẩn bị mâm cơm cúng tất niên như thế nào </a></h4>
+                                    </li>
+                                </ul>
+                                <a class="readmore-news" href="#">Xem thêm tin khác</a>
+                            </div>
+                        </div>
+                        <!--End box popular news-->
+
+                        <div class="box-focal">
+                            <div class="row">
+                                <div class="col-md-12 col-xs-12 col-sm-12">
+                                    <div class="header-box-focal">
+                                        <span>T</span>iêu điểm tháng
+                                        <div class="customNavigation pull-right">
+                                            <a class="btn prev-focal">Previous</a>
+                                            <a class="btn next-focal">Next</a>                                            
+                                        </div>
+                                    </div>
+                                    <div class="content-slider-focal">
+                                        <div id="slider-focal" class="owl-carousel owl-theme">
+                                            <div class="item-focal"><h1>1</h1></div>
+                                            <div class="item-focal"><h1>2</h1></div>
+                                            <div class="item-focal"><h1>3</h1></div>
+                                            <div class="item-focal"><h1>4</h1></div>
+                                            <div class="item-focal"><h1>5</h1></div>
+                                            <div class="item-focal"><h1>6</h1></div>
+                                            <div class="item-focal"><h1>7</h1></div>
+                                            <div class="item-focal"><h1>8</h1></div>
+                                            <div class="item-focal"><h1>9</h1></div>
+                                            <div class="item-focal"><h1>10</h1></div>
+                                            <div class="item-focal"><h1>11</h1></div>
+                                            <div class="item-focal"><h1>12</h1></div>
+                                            <div class="item-focal"><h1>13</h1></div>
+                                            <div class="item-focal"><h1>14</h1></div>
+                                            <div class="item-focal"><h1>15</h1></div>
+                                            <div class="item-focal"><h1>16</h1></div>
+                                        </div>
+
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!--End box focal-->
+                        
+                        <div class="box-new-home">
+                            <div class="row">
+                                <div class="col-md-12 col-xs-12 col-sm-12">
+                                    <div class="header-box-new-home">
+                                        sdfg
+                                    </div>
+                                    <div class="content-box-new-home">
+                                        fsdfgsdfg
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End box new home-->
+                        
+                        <div class="box-ad-home">
+                            
+                        </div>
+                        
+                    </div>
+                    <!--End main-->
+
+                    <!--Start sidebar-->
+                    <div class="col-md-4 col-xs-4 col-sm-4">
+
+                        <div class="advantising-sidebar">
+                            <img src="images/image-logo.png" />  
+                        </div>
+
+                        <div class="sidebar-new-news">
+                            <h3 class="widget-title">QUAN HỆ XÃ HỘI</h3>
+                            <ul>
+                                <li class="clearfix">
+                                    <a href="#">
+                                        <img class="image-silebar pull-left" src="images/icon-silebar.png"/>
+                                        <h4>Bí quyết để CEO Yahoo làm ra 500 triệu USD ở tuổi 39</h4></a>
+                                </li>
+                                <li class="clearfix">
+                                    <a href="#"><img class="image-silebar pull-left" src="images/icon-silebar.png"/><h4>Bí quyết để CEO Yahoo làm ra 500 triệu USD ở tuổi 39</h4></a>
+                                </li>
+                                <li class="clearfix">
+                                    <a href="#"><img class="image-silebar pull-left" src="images/icon-silebar.png"/><h4>Bí quyết để CEO Yahoo làm ra 500 triệu USD ở tuổi 39</h4></a>
+                                </li>
+                                <li class="clearfix">
+                                    <a href="#"><img class="image-silebar pull-left" src="images/icon-silebar.png"/><h4>Bí quyết để CEO Yahoo làm ra 500 triệu USD ở tuổi 39</h4></a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="sidebar-new-news">
+                            <h3 class="widget-title">CÂU CHUYỆN CUỘC SỐNG</h3>
+                            <ul>
+                                <li class="clearfix">
+                                    <a href="#"><img class="image-silebar pull-left" src="images/icon-silebar.png"/><h4>Bí quyết để CEO Yahoo làm ra 500 triệu USD ở tuổi 39</h4></a>
+                                </li>
+                                <li class="clearfix">
+                                    <a href="#"><img class="image-silebar pull-left" src="images/icon-silebar.png"/><h4>Bí quyết để CEO Yahoo làm ra 500 triệu USD ở tuổi 39</h4></a>
+                                </li>
+                                <li class="clearfix">
+                                    <a href="#"><img class="image-silebar pull-left" src="images/icon-silebar.png"/><h4>Bí quyết để CEO Yahoo làm ra 500 triệu USD ở tuổi 39</h4></a>
+                                </li>
+                                <li class="clearfix">
+                                    <a href="#"><img class="image-silebar pull-left" src="images/icon-silebar.png"/><h4>Bí quyết để CEO Yahoo làm ra 500 triệu USD ở tuổi 39</h4></a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="sidebar-box">
+                            <h3 class="box-title">CHUYÊN ĐỀ</h3>
+                            <ul>
+                                <li class="pull-left">
+                                    <a href="#"><img class="icon-silebar-box" src="images/icon-silebar-box.png"/><h4>Chuyên đề Sức khỏe và thời trang</h4></a>
+                                </li>
+                                <li class="pull-left">
+                                    <a href="#"><img class="icon-silebar-box" src="images/icon-silebar-box.png"/><h4>Chuyên đề Sức khỏe và thời trang</h4></a>
+                                </li>
+                                <li class="pull-left">
+                                    <a href="#"><img class="icon-silebar-box" src="images/icon-silebar-box.png"/><h4>Chuyên đề Sức khỏe và thời trang</h4></a>
+                                </li>
+                                <li class="pull-left">
+                                    <a href="#"><img class="icon-silebar-box" src="images/icon-silebar-box.png"/><h4>Chuyên đề Sức khỏe và thời trang</h4></a>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                        <div class="wap-facebook">
+                            <div class="content-facebook">
+                                <div id="fb-root"></div>
+                                <script>(function (d, s, id) {
+                                        var js, fjs = d.getElementsByTagName(s)[0];
+                                        if (d.getElementById(id))
+                                            return;
+                                        js = d.createElement(s);
+                                        js.id = id;
+                                        js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.0";
+                                        fjs.parentNode.insertBefore(js, fjs);
+                                    }(document, 'script', 'facebook-jssdk'));</script>
+                                <div class="fb-like-box" data-href="https://www.facebook.com/FacebookDevelopers" data-width="300px" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="true"></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <!--<form role="search" method="get" class="search-form" action="<?php echo home_url( '/' ); ?>">-->
-                <!--<label>-->
-                <!--<span class="screen-reader-text"><?php echo _x( 'Search for:', 'label' ) ?></span>-->
-                <!--<input type="search" class="search-field" placeholder="<?php echo esc_attr_x( 'Search …', 'placeholder' ) ?>" value="<?php echo get_search_query() ?>" name="s" title="<?php echo esc_attr_x( 'Search for:', 'label' ) ?>" />-->
-                <!--</label>-->
-                <!--<input type="submit" class="search-submit" value="<?php echo esc_attr_x( 'Search', 'submit button' ) ?>" />-->
-                <!--</form>-->
             </div>
         </div>
-    </div>
-</div>
+        <!--End Main index-->
 
-<script src="js/jquery-1.11.2.min.js"></script>
-<script src="js/bootstrap.js"></script>
-</body>
+        <div class="main-footer">
+            <div class="footer-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <ul class="content-menu-footer">
+                                <li><a href="#">Đời sống</a></li>
+                                <li><a href="#">Vợ & Chồng</a></li>
+                                <li><a href="#">Mẹ bầu bí</a></li>
+                                <li><a href="#">Nuôi dạy con</a></li>
+                                <li><a href="#">Nội trợ</a></li>
+                                <li><a href="#">Thời trang</a></li>
+                                <li><a href="#">Làm đẹp</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-5">
+                            <ul class="content-menu-footer">
+                                <li class="pull-right"><a href="#">Liên hệ toà soạn </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer">
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-10">
+                            <p>© Copyright 2015 <b>Familytoday</b>, All rights reserved</p>
+                            <p>Địa chỉ: P24.5 - M5 Tower - 91 Nguyễn Chí Thanh - Đống Đa - Hà Nội</p>
+                            <p>Điện thoại: 04.2242 6888 - Email: contact@vcss.vn</p>
+                            <p>Giấy phép số 220/GP-TTĐT ; Cục QL phát thanh truyền hình và thông</p>
+                        </div>
+                        <div class="col-md-2">
+                            <a href="#"><p class="footer-right pull-right">Powered by<span class="Powered "> ANWeb </span></p></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="icon-footer"><a href="#"><img src="images/icon-footer.png"></a></div>
+            </div>
+        </div>
+
+        <!--End footer-->
+        <script src="js/jquery-1.11.2.min.js"></script>
+        <script src="js/bootstrap.js"></script>        
+        <script src="lib/owl-carousel/owl.carousel.min.js"></script>
+        <script src="js/app.js"></script>
+    </body>
 </html>
