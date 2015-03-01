@@ -108,10 +108,10 @@ and open the template in the editor.
     background: #bd0478;
     height: 40px;
 }
-.content-menu-header li {
+.content-menu-footer li {
 float: left;
-padding: 8px 9px 0 7px;
+padding: 10px 9px 0 7px;
 border-right: none !important;
 border-left: none !important;
-height: 38px;
+height: 40px;
 }

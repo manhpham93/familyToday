@@ -102,13 +102,16 @@ and open the template in the editor.
 .sidebar-new-news a:hover h4{
     color: #bd0478;
 }
+.sidebar-new-news .image-silebar{
+    margin-right: 10px;
+}
 .sidebar-new-news h4{
     font-family: "Arial";
     font-size: 14px;
     font-weight: 400;
     color: #6c6c6c;
-    line-height: 20px;
-    padding-left: 70px
+    line-height: 20px;   
+    margin-top: 0;
 }
 .box-title{
     background-color: #bd0478;
